@@ -48,7 +48,7 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build-only
+        run: npm run build
         env:
           NODE_ENV: production
 
